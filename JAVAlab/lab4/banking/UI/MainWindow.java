@@ -246,7 +246,7 @@ public class MainWindow extends JFrame{
 		File file=new File("bank.txt");
 		try {
 			FileWriter fwriter=new FileWriter(file);
-			fwriter.write(" ");
+			fwriter.write("");
 			fwriter.flush();
 			fwriter.close();
 		}
